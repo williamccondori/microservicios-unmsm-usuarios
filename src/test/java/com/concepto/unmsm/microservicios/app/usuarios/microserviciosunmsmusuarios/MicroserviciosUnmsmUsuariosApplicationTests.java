@@ -3,11 +3,11 @@ package com.concepto.unmsm.microservicios.app.usuarios.microserviciosunmsmusuari
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+
 @SpringBootTest
 class MicroserviciosUnmsmUsuariosApplicationTests {
 
     @Test
-    void contextLoads() {
+    public void contextLoads() {
     }
-
 }

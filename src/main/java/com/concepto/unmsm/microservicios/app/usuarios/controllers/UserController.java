@@ -10,11 +10,11 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/users")
-public class UsuarioController {
+public class UserController {
 
     private final IUsuarioService _usuarioService;
 
-    public UsuarioController(IUsuarioService usuarioService) {
+    public UserController(IUsuarioService usuarioService) {
         this._usuarioService = usuarioService;
     }
 
